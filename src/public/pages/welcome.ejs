@@ -1,0 +1,18 @@
+<%- include('../partials/head') %>
+<%- include('../partials/nav') %>
+<div class="row ">
+  <div class="col-8 ">
+    <h1>WELCOME   </h1>
+    <h4>FIRST NAME: <%= data.firstName %></h4>
+    <h4>LAST NAME: <%= data.lastName %></h4>
+    <h4>EMAIL: <%= data.email %></h4>
+    <h4>PHONE: <%= data.phone %></h4>
+    <h4>CITY: <%= data.city %></h4>
+    <h4>COUNTRY: <%= data.country %></h4>
+    <h4>ZIP CODE: <%= data.zip %></h4>
+    <button type="button" onclick="location.href='/api/nosotros'" class="btn" style="border-radius: 20px; padding: 5px 25px 5px 25px; color: white; background-color:#cb4d94 ;">Return Nosotros</button>
+    
+  </div>
+</div>
+
+<%- include('../partials/footer') %>
